@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playground 5</title>
+  </head>
+  <body>
+    <header>
+      <section class="hero">
+        <h1>Section 5</h1>
+      </section>
+    </header>
+    <main>
+      <section class="table-intro">
+        <h1>Heavy Birds</h1>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Weight</th>
+            <th>Max. Weight</th>
+            <th>Flighted</th>
+          </tr>
+          <tr>
+            <td>Ostrich<sup>20</sup></td>
+            <td>104(230)</td>
+            <td>156.8(348)</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>Somali Ostrich</td>
+            <td>50(120)</td>
+            <td>126.8(246)</td>
+            <td>No</td>
+          </tr>
+        </table>
+      </section>
+      <section class="table-better">
+        <h1>Better Table</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>First</th>
+              <th>Second</th>
+              <th>Third</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Blah1</td>
+              <td>Blah1</td>
+              <td>Blah1</td>
+            </tr>
+            <tr>
+              <td>Blah1</td>
+              <td>Blah1</td>
+              <td>Blah1</td>
+            </tr>
+            <tr>
+              <td>Blah1</td>
+              <td>Blah1</td>
+              <td>Blah1</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="table-spans">
+        <h1 style="margin-top: 20px">Colspan & Rowspan</h1>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Weight</th>
+            <th>Max. Weight</th>
+            <th>Flighted</th>
+          </tr>
+          <tr>
+            <td>Ostrich<sup>20</sup></td>
+            <td>104(230)</td>
+            <td>156.8(348)</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>Somali Ostrich</td>
+            <td>50(120)</td>
+            <td>126.8(246)</td>
+            <td>No</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="table-better" style="margin-top: 20px">
+        <h1>Better Table</h1>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">First</th>
+              <th colspan="2">Second</th>
+              <th rowspan="2">Third</th>
+            </tr>
+            <tr>
+              <th>Sub1</th>
+              <th>Sub2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Blah1</td>
+              <td>Blah1</td>
+              <td>Blah1</td>
+            </tr>
+            <tr>
+              <td>Blah1</td>
+              <td>Blah1</td>
+              <td>Blah1</td>
+            </tr>
+            <tr>
+              <td>Blah1</td>
+              <td>Blah1</td>
+              <td>Blah1</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="excercise">
+        <table>
+          <thead>
+            <tr>
+              <th>Subscription</th>
+              <th>Price</th>
+              <th>Support</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Free</td>
+              <td>Free</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <td>Personal</td>
+              <td>$9.99</td>
+              <td>Weekdays</td>
+            </tr>
+            <tr>
+              <td>Business</td>
+              <td>$49.99</td>
+              <td>24/7</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <div style="padding-top: 50px"></div>
+      <section>
+        <h1>Forms</h1>
+        <div class="first">
+          <form action="/tacos">
+            <div class="login">
+              <p>
+                <label for="username">Enter a Username</label>
+                <input id="username" type="text" placeholder="Username" />
+              </p>
+
+              <p>
+                <label for="password">Enter a Password</label>
+                <input id="password" placeholder="Password" type="password" />
+              </p>
+            </div>
+            <div class="perferance">
+              <label for="cheese">Cheese</label>
+              <input type="checkbox" name="cheese" id="cheese" />
+            </div>
+            <input type="color" />
+            <input type="range" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a
+        href="https://github.com/StasonJatham/Web-dev-bootcamp/blob/main/Sections/section_5/index.md"
+        >Back to Section</a
+      >
+    </footer>
+  </body>
+</html>

@@ -158,12 +158,22 @@
             <div class="login">
               <p>
                 <label for="username">Enter a Username</label>
-                <input id="username" type="text" placeholder="Username" />
+                <input
+                  id="username"
+                  name="uname"
+                  type="text"
+                  placeholder="Username"
+                />
               </p>
 
               <p>
                 <label for="password">Enter a Password</label>
-                <input id="password" placeholder="Password" type="password" />
+                <input
+                  id="password"
+                  name="passwd"
+                  placeholder="Password"
+                  type="password"
+                />
               </p>
             </div>
             <div class="perferance">
@@ -172,8 +182,82 @@
             </div>
             <input type="color" />
             <input type="range" />
+
+            <button type="submit">Submit</button>
           </form>
         </div>
+
+        <div class="second">
+          <form action="https://www.reddit.com/search" method="get">
+            <label for="query">Reddit Search</label>
+            <input type="text" name="q" id="query" />
+            <button type="submit">Search Reddit</button>
+          </form>
+        </div>
+
+        <div clas="excercise">
+          <form>
+            <label for="username">Username</label>
+            <input
+              type="text"
+              placeholder="username"
+              id="username"
+              name="username"
+            />
+
+            <label for="password">Password</label>
+            <input
+              type="password"
+              placeholder="password"
+              name="password"
+              id="password"
+            />
+
+            <button>Register</button>
+          </form>
+        </div>
+        <h2 style="margin-top: 20px">Form Validation</h2>
+        <h2>Race Registration!</h2>
+        <form action="">
+          <p>
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="First Name" id="fname" />
+            <label for="lname">Lat Name</label>
+            <input type="text" placeholder="Last Name" id="lname" />
+          </p>
+          <p>Select a race:</p>
+          <p>
+            <input type="radio" name="" id="funrun" />
+            <label for="funrun">Fun Run 5k</label>
+          </p>
+          <p>
+            <input type="radio" name="" id="hm" />
+            <label for="hm">Half Marathon</label>
+          </p>
+          <p>
+            <input type="radio" name="" id="fm" />
+            <label for="fm">Full Marathon</label>
+          </p>
+
+          <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="pw">Password</label>
+            <input type="password" name="" id="pw" />
+          </p>
+
+          <p>
+            <label for="age">Select Age Group</label>
+            <select name="" id="age">
+              <option value="">under 18</option>
+              <option value="">18-25</option>
+              <option value="">30-50</option>
+              <option value="">50+</option>
+            </select>
+          </p>
+
+          <button>Register</button>
+        </form>
       </section>
     </main>
     <footer>

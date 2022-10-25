@@ -1,0 +1,27 @@
+html, body {
+    background-color: slategrey;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: orange underline wavy;
+}
+h2 {
+    color: indigo;
+}
+
+button {
+    color: magenta;
+    background-color: palegreen;
+}
+
+p {
+    color: greenyellow
+}
+
+
+.fish {
+    margin-top: 20px;
+}
